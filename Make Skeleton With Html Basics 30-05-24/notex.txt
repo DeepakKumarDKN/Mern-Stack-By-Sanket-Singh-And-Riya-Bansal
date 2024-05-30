@@ -1,0 +1,89 @@
+. Used For Documentation 
+. HTML hamare webpage ko structure karte hain through the concept of tags.
+.HTML is used to structure and format the content which we see in the webpage.
+
+. HTML elements are hierarchial in nature eska matlab ham ek elements ke andar 
+aur elments kar sakhte hai jiske vajeh se ek tree like structure create hota hai. 
+
+. uske ham bolte hai DOM. Document Object Model and DOM is used by the web- browser to render the 
+webpage.
+
+.Tags:
+-----
+Tag open bracket se start hoga less than sign se start hoga and bandh hoga greater than sign se
+and uske beech mein ham decide karamge ki hame kis tarah ka tag chahiye i mean jo ham 
+less than or greater than sign ke beech likhenge woh decide karega ki kis tarah ka tah ham use kar rahe hein.
+
+Example: 
+--------
+<p>Hello</p> => yeah ho gaya hamara p tag
+
+<!DOCTYPE html> => this tells us that this is an HTML dcoument.
+<html> => this is an root element in thich we can find all the tags all the elemnts
+and many more thigs.
+
+<head> => meta data ko define karne ke liye ham head tag use karenge.
+body tag woh actual tag hai jiske andar ham sara code likhenge sabse jyada imp hota hai body Tag and jo bhi hame webpage mein content dekhne hain
+woh sara ka sara code ham likhe hein body tag ke andar.,.
+
+<br> (line break) => br tag is known as empty tag jiska closing tag required nahi hai.
+pre tag => aap jaisa likhoge woh waisa hi shiw karega aggar aap space doge toh woh space show karega aisa nahi hai ki space ko uda dega .
+aggar aap linebreak karke next line mein likhna chahte ho but without using br tag then woh waisa hi show karega
+
+aur wahan monospace font use hota hai it mean where each character will take equal space to display just look ate the pre tag example.
+and we normally use pretag when we will render the code. for example: 
+
+
+let data = {
+    name : 'deepak',
+    gmail : 'deepak@gmail.com',
+    location: 'India'
+}
+
+so this is basically and javascript Object where iam strong some data in the form of key and value pair.
+we can write this type of data inside an pre tag. 
+
+<pre>
+    let data = {
+        name : 'deepak',
+        gmail : 'deepak@gmail.com',
+        location: 'India'
+    }
+</pre>
+
+Code Tag => esmein format ho jata hai but agarr apko bhi formatting nahi chahiye the aap use kar sakhte ho pretag.
+let data = {
+            name : 'deepak',
+            gmail : 'deepak@gmail.com',
+            location: 'India'
+        }
+
+<hr> Horizental line draw karne ke liye. 
+
+Inline Elements and Block Line elements: 
+------------------------------------------
+Inline Elements hamesha ek hi line mein displyed hote hein. example a tag (<a></a>)
+there are other inline elements as well but just for understanding purpose i just have taken example 
+of a tag. it will take as much width as it is required but block elements pura width le dega . jaise ki
+ek p-tag pura width le jaega and a tag nahi lega.
+
+Block Elements: always displayed on the new line. ek line mein nhi hoga display 
+for example p-tag, div-tag, hi-tag. aap 2 paragraph tag ko ek hi line mein anhi likh page.
+haan aggar css use karegoge tabhi jake kar paoge otherwise nahi.
+
+Example for block and inline with one example:
+----------------------------------------------
+<p>Hello my name is</p>
+
+Formatting Tags:
+----------------
+formatting tags are divided into two tyes: 
+    1. Physical Tags => this is otherwise known as Presentation Tags, jo koi meaning provide nahi karta hai bas sundar banane ke liye use hote hein 
+    2. Sematic Tags => Sematic tags woh tags hote hein jo text ke andar ek special meaning assign karte hai as well as adding style to that.
+
+<h2>Using Sematic Tags in between the text</h2>
+<p>This text is <em>very very important</em></p>
+
+<b>Bold Tag</b>
+<i>Itaic Tag</i>
+<u>Underline Tag</u>

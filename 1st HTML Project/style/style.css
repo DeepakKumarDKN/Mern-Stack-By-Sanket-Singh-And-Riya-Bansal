@@ -19,6 +19,8 @@ html,body{
     min-height: 100vh;
     width:100%;
     position: relative;
+    padding-bottom: 5rem;
+    padding: 30px;
 }
 .navbar-container{
     position: fixed;
@@ -27,6 +29,7 @@ html,body{
     width:100%;
     background-color: white;
     z-index: 9;
+    padding: 30px;
 }
 .navbar{
     max-width: 800px;
@@ -91,6 +94,7 @@ html,body{
     display:flex;
     flex-direction: column;
     gap: 2rem;
+    
 }
 .form-area h1{
     font-family: Lato;
@@ -139,6 +143,142 @@ html,body{
     outline: 0;
     border: 1px solid #dedfe1;
 }
+.pronous-section p{
+    font-size: 1rem;
+    font-family: Lato;
+}
+.pronous-section{
+display: flex;
+gap: 5rem;
+}
+.pronous-container{
+max-width: 600px;
+width:100%;
+padding: 0 50px;
+}
+.pronouns-data input[type="checkbox"],
+.pronouns-data-extra-data div input[type="checkbox"]{
+    width:18px;
+    height:18px;
+}
+.pronouns-data label, 
+.pronouns-data-extra-data div label{
+    font-size: 1rem;
+    font-family: Lato;
+    color: var(--light-color)
+}
+.pronouns-data{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+.pronouns-data-extra-data{
+    padding-left: 50px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.pronouns-data div, 
+.pronouns-data-extra-data div{
+    display:flex;
+    align-items: center;
+    gap: 10px
+}
+.pronous-heading-data{
+    margin-top: 1rem;
+}
+.info, .links-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width:100%;
+}
+.email-container{
+    width:100%;
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 1.5rem
+    
+}
+.phone-container{
+    width:100%;
+    display: flex;
+    gap: 7.6rem;
+    margin-bottom: 1.5rem
+}
+.location-container{
+    width:100%;
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem
+}
+.company-container{
+    width:100%;
+    display: flex;
+    gap: 2.1rem;
+    margin-bottom: 1.5rem
+}
+.linkedin-container,
+.portfolio-container{
+    width:100%;
+    display: flex;
+    gap: 6.9rem;
+    margin-bottom: 1.5rem;
+}
+.github-container{
+    width:100%;
+    display: flex;
+    gap: 7.7rem;
+    margin-bottom: 1.5rem;
+}
+.email-container label,
+.phone-container label,
+.location-container label,
+.company-container label,
+.linkedin-container label,
+.github-container label,
+.portfolio-container label{
+    font-size: 1.1rem;
+    font-family: Lato;
+}
+.email-container input[type="email"],
+.phone-container input[type="text"],
+.location-container input[type="text"],
+.company-container input[type="text"],
+.linkedin-container input[type="text"],
+.github-container input[type="text"],
+.portfolio-container input[type="text"]{
+    max-width: 500px;
+    width:100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--light-color)
+}
+/* language container styling starts */
+
+.language-container .language h1{
+    padding: 1rem 0px
+}
+.language div{
+    width:100%;
+}
+.language div input[type="checkbox"]{
+    width:20px;
+    height:20px;
+}
+.language div label{
+    font-size: 1rem;
+    font-family: Lato;
+}
+.language div{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 20px;
+    color: var(--light-color)
+}
+/* language container styling ends */
+
 
 
 @media (max-width:750px){
@@ -154,6 +294,54 @@ html,body{
     }
     .name-section input[type="text"]{
         margin-left: 0px;
+        max-width: 100%;
+        width:100%;
     }
     
+    .pronous-section{
+    display: flex;
+    flex-direction: column;
+    }
+    .pronouns-data-extra-data {
+        padding-left: 0px;
+       }
+    .pronous-section{
+        gap:1rem
+    }
+    .pronouns-data{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .pronous-container {
+        padding: 0;
+    }
+    .email-container,
+    .phone-container, 
+    .location-container,
+    .company-container,
+    .linkedin-container,
+    .github-container,
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem
+    }
+    .email-container input[type="email"],
+    .phone-container input[type="text"],
+    .location-container input[type="text"],
+    .company-container input[type="text"],
+    .linkedin-container input[type="text"],
+    .github-container input[type="text"],
+    .portfolio-container input[type="text"]{
+        width:100%;
+        max-width: 100%;
+    }
+}
+@media (max-width:450px){
+.pronouns-data{
+    gap: 10px
+}
+.pronouns-data div{
+    gap: 5px
+}
 }

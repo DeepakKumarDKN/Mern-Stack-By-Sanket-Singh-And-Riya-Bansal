@@ -29,13 +29,13 @@ html,body{
     width:100%;
     background-color: white;
     z-index: 9;
-    padding: 30px;
+    padding: 20px 30px;
 }
 .navbar{
     max-width: 800px;
     z-index: 9;
     margin: 0 auto;
-    padding: 20px 5px;
+
 }
 .navbar img{
     width:150px;
@@ -257,10 +257,13 @@ padding: 0 50px;
 /* language container styling starts */
 
 .language-container .language h1{
-    padding: 1rem 0px
+    padding: 1rem 0px;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 .language div{
     width:100%;
+    margin-bottom: 1rem;
 }
 .language div input[type="checkbox"]{
     width:20px;
@@ -269,11 +272,12 @@ padding: 0 50px;
 .language div label{
     font-size: 1rem;
     font-family: Lato;
+    font-weight: 500;
 }
 .language div{
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 10px;
     margin-left: 20px;
     color: var(--light-color)
 }

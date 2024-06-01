@@ -427,7 +427,7 @@ body {
     color:  var(--light-dark-color);
 }
 .choose-container div select{
-    max-width: 600px;
+    max-width: 500px;
     width:100%;
     padding:10px;
     outline: none;
@@ -522,6 +522,9 @@ body {
 }
 /* submit-button styling */
 
+.disablity{
+  margin-top: 1.5rem;
+}
 
 /* footer-section styling */
 .footer-section{

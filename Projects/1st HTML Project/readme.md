@@ -3,4 +3,4 @@
 > # Desktop
 > ![Desktop](./images/Untitled.png)
 > # Mobile
-> ![Mobile](./imag)
+> ![Mobile](./images/Untitled%20(1).png)

@@ -138,51 +138,48 @@ body {
   outline: 0;
   border: 1px solid #dedfe1;
 }
-.pronous-section p {
-  font-size: 1rem;
-  font-family: Lato;
-}
-.pronous-section {
+
+.pronoun-container{
   display: flex;
   gap: 5rem;
 }
-.pronous-container {
-  max-width: 600px;
-  width: 100%;
-  padding: 0 50px;
-}
-.pronouns-data input[type="checkbox"],
-.pronouns-data-extra-data div input[type="checkbox"] {
-  width: 18px;
-  height: 18px;
-}
-.pronouns-data label,
-.pronouns-data-extra-data div label {
+.pronoun-container p{
   font-size: 1rem;
   font-family: Lato;
-  color: var(--light-color);
 }
-.pronouns-data {
+.pronoun-data{
+  margin-left: 50px;
+  max-width: 500px;
+  width:100%;
+}
+.pronoun-data div li {
+  list-style-type: none;
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 5px;
+}
+.pronoun-data .data{
+  display: flex;
+  max-width: 450px;
+  justify-content: space-between;
+  width:100%;
+  padding: 0px 20px;
   margin-bottom: 2rem;
 }
-.pronouns-data-extra-data {
-  padding-left: 50px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+.data .extra-data{
+  margin-top: 1.5rem;
 }
-.pronouns-data div,
-.pronouns-data-extra-data div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.data li input[type="checkbox"]{
+  width:18px;
+  height:18px;
 }
-.pronous-heading-data {
-  margin-top: 1rem;
+.data li label,
+.pronous-heading p{
+  font-size: 1rem;
+  font-family: Lato;
+  color: var(--light-color)
 }
+
 .info,
 .links-container {
   max-width: 1000px;
@@ -575,22 +572,13 @@ body {
     width: 100%;
   }
 
-  .pronous-section {
+  .pronoun-container {
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
   }
-  .pronouns-data-extra-data {
-    padding-left: 0px;
-  }
-  .pronous-section {
-    gap: 1rem;
-  }
-  .pronouns-data {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .pronous-container {
-    padding: 0;
+  .pronoun-data{
+    margin-left: 0px;
   }
   .email-container,
   .phone-container,
@@ -649,11 +637,38 @@ body {
     }
 }
 @media (max-width: 450px) {
-  .pronouns-data {
-    gap: 10px;
+  .pronous-data-table li input[type="checkbox"],
+  .pronouns-data-extra-data div input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
   }
-  .pronouns-data div {
-    gap: 5px;
+  .data li label {
+    font-size: 14px;
+    font-family: Lato;
+    color: var(--light-color);
+  }
+  .message h1{
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+  .data li input[type="checkbox"]{
+    width:15px;
+    height:15px;
+  }
+  .data li label,
+  .pronous-heading p{
+  font-size: 14px;
+  font-family: Lato;
+  color: var(--light-color)
+  }
+  .pronoun-data .data{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    width:100%;
+    padding: 0px 5px;
+    margin-bottom: 2rem;
   }
   
 }

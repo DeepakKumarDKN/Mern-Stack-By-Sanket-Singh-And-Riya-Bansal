@@ -1,0 +1,67 @@
+ <div class="pronous-section">
+                <p>Pronoun</p>
+                <div class="pronoun-table">
+                    <div class="pronoun-container">
+                        <div class="pronouns-data">
+                            <li>
+                                <input type="checkbox" id="He/him" name="He/him">
+                                <label for="He/him">He/him</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="She/her" name="She/her" >
+                                <label for="She/her">She/her</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="They/them" name="They/them">
+                                <label for="They/them">They/them</label>
+                            </li>
+                        </div>
+                        <div class="pronouns-data">
+                            <li>
+                                <input type="checkbox" id="Xe/xem" name="Xe/xem">
+                                <label for="Xe/xem">Xe/xem</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Ze/hir" name="Ze/hir" >
+                                <label for="Ze/hir">Ze/hir</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Ey/em" name="Ey/em">
+                                <label for="Ey/em">Ey/em</label>
+                            </li>
+                        </div>
+                        <div class="pronouns-data">
+                            <li>
+                                <input type="checkbox" id="Hir/hir" name="Hir/hir">
+                                <label for="Hir/hir">Hir/hir</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Fae/faer" name="Fae/faer">
+                                <label for = "Fae/faer">Fae/faer</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Hu/hu" name="Hu/hu">
+                                <label for="Hu/hu">Hu/hu</label>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                
+                    <hr>
+                    <div class="pronouns-data-extra-data">
+                        <div>
+                            <input type="checkbox" id="He/him" name="He/him" value="Bike">
+                            <label for="He/him"> Use Name Only</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="pronouns-data-extra-data">
+                        <div>
+                            <input type="checkbox" id="He/him" name="He/him" value="Bike">
+                            <label for="He/him">Custom</label>
+                    </div>
+                    <div class="pronous-heading-data">
+                        <p>How would you like us to refer to you? Let us know what pronouns you use.</p>
+                    </div>
+            </div>
+            </div>

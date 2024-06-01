@@ -44,6 +44,7 @@ body {
   top: 80px;
   left: 0;
   background-color: rgb(255, 255, 255);
+  padding: 30px;
 }
 .position-location-container {
   max-width: 800px;

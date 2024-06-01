@@ -506,7 +506,7 @@ body {
 /* submit-button styling  */
 .submit-button{
     border: none;
-    padding: 1rem 1.5rem;
+    padding: 12px 1.5rem;
     max-width: 250px;
     width:100%;
     margin: 0 auto;
@@ -517,6 +517,10 @@ body {
     color:white;
     margin-bottom: 4rem;
     
+}
+.main-container sup{
+    color:red;
+    font-size: 1.2rem;
 }
 /* submit-button styling */
 

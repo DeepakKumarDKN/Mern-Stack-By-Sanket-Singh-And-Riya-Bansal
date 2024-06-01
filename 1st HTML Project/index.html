@@ -31,16 +31,17 @@
                 <h1>submit your application</h1>
 
                 <div class="upload-file">
-                    <label for="file">Resume/CV<sup>*</sup></label>
-                    <button>
+                    <label for="fileupload">Resume/CV<sup>*</sup></label>
+                    <div class="fileup">
+                        <input type="file" style="display:none" id="file">
                         <img src="./images/attachment.png" alt="">
-                        ATTATCH RESUME / CV
-                    </button>
+                        <label for="file">ATTACH RESUME CV</label>
+                    </div>
                 </div>
             </div>
 
             <div class="name-section">
-                <label for="fullname">Full name <sup>*</sup></label>
+                <label for="fullname">Full name <sup class="required">*</sup></label>
                 <input type="text" id="fullname">
             </div>
 
@@ -191,53 +192,328 @@
                         <label for="hindi">Hindi(HIN)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="ARABIC" name="ARABIC">
-                        <label for="ARABIC">English(ENG)</label>
+                        <input type="checkbox" id="arabic" name="arabic">
+                        <label for="arabic">Arabic(ARA)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="dan" name="dan">
+                        <label for="dan">Danish(DAN)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="turkish" name="turkish">
+                        <label for="turkish">Turkish(TUR)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="portugese" name="portugese">
+                        <label for="portugese">Portugese(POR)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="heb" name="heb">
+                        <label for="heb">Hebrew(HEB)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="swe" name="swe">
+                        <label for="swe">Swedish(SWE)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="nor" name="nor">
+                        <label for="nor">Norwegian(NOR)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="ita" name="ita">
+                        <label for="ita">Italia(ITA)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="vie" name="vie">
+                        <label for="vie">Vietnamese(VIE)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="tgl" name="tgl">
+                        <label for="tgl">Tagalog(TGL)</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="eng" name="eng">
-                        <label for="eng">English(ENG)</label>
+                        <input type="checkbox" id="tel" name="tel">
+                        <label for="tel">Telegu(TEL)</label>
                     </div>
                 </div>
             </div>
+
+            <div class="call-us-container">
+                <p>Preferred Name | What would you like to us to call You?</p>
+                <input type="text" placeholder="Type Your Response">
+            </div>
+
+            <div class="call-us-container">
+                <p>Name Pronunciation | How do you response your name?</p>
+                <input type="text" placeholder="Type Your Response">
+            </div>
+
+            <div class="work-authorization">
+                <p>Are you legally authorized to work on this country<sup>*</sup></p>
+
+                <div>
+                    <input type="radio" id="yes" name="authorized" value="yes">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="authorized" value="no">
+                    <label for="no">No</label>
+                </div>
+            </div>
+
+            <div class="work-authorization">
+                <p>Will you now or in the future require sponsorship for employment visa status (e.g., H-1B, etc.)?<sup>*</sup></p>
+
+                <div>
+                    <input type="radio" id="yes" name="authorized" value="yes">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="authorized" value="no">
+                    <label for="yes">No</label>
+                </div>
+            </div>
+            
+
+            <div class="universty-container">
+                <h1>University</h1>
+                <p>Which university are you currently attending or did you last attend? Please select "Other (School Not Listed)" if your school is not listed. <sup>*</sup></p>
+
+                <div>
+                    <select name="college" id="college">
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="get-info">
+                <h1>HOW DID YOU HEAR ABOUT THIS OPPORTUNITY?</h1>
+                <p>Please tell us how you heard about this opportunity <sup>*</sup></p>
+                <div>
+                    <select name="college" id="college">
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                        <option value="select">Select</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="custom-question">
+                <h1>SOFTWARE ENGINEER - FRONTEND DEVELOPER PRODUCTIVITY CUSTOM QUESTION</h1>
+                <p>Describe your experience with frontend build tooling, and/or a way you improved the developer productivity in your most recent role.</p>
+
+                <div>
+                    <textarea name="text" id="text" rows="10">
+
+                    </textarea>
+                </div>
+            </div>
+
+            <div class="get-info">
+                <h1>Relevant Experience</h1>
+                <p>How many years of relevant, post college work experience do you have?<sup>*</sup></p>
+                <div>
+                    <select name="college" id="college">
+                        <option value="select">1</option>
+                        <option value="select">2</option>
+                        <option value="select">3</option>
+                        <option value="select">4</option>
+                        <option value="select">5</option>
+                        <option value="select">6</option>
+                        <option value="select">7</option>
+                        <option value="select">8</option>
+                        <option value="select">9</option>
+                        <option value="select">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="custom-question">
+                <h1>Addtional Questions</h1>
+                <p>What has been your favorite project or proudest accomplishment? Why?</p>
+                <div>
+                    <textarea name="text" id="text" rows="10">
+
+                    </textarea>
+                </div>
+
+                <p>Why do you want to work at Palantir?</p>
+                <div>
+                    <textarea name="text" id="text" rows="10">
+
+                    </textarea>
+                </div>
+            </div>
+
+            <div class="message">
+                <h1>PALANTIR IS COMMITTED TO MAKING THE JOB APPLICATION PROCESS ACCESSIBLE TO EVERYONE. IF YOU ARE LIVING WITH A DISABILITY (VISIBLE OR NOT VISIBLE) AND NEED TO REQUEST A REASONABLE ACCOMMODATION FOR ANY PART OF THE APPLICATION OR HIRING PROCESS, PLEASE REACH OUT TO ACCOMMODATIONS@PALANTIR.COM AND LET US KNOW HOW WE CAN HELP.</h1>
+            </div>
+
+            <div class="addtional-info">
+                <h1>ADDITIONAL INFORMATION</h1>
+                <div>
+                    <textarea name="" id="" rows="7">Add a cover letter or anything else you want to share</textarea>
+                </div>
+                <hr>
+            </div>
+
+            <div class="opportunities-container">
+                <h2>U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION <span>(Completion is voluntary and will not subject you to adverse treatment)</span></h2>
+                <p>Palantir provides equal employment and affirmative action opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability</p>
+                <p>Palantir is a federal contractor or subcontractor subject to certain governmental recordkeeping and reporting requirements for the administration of civil right laws and regulations. Employment decisions are made on the basis of job-related criteria without regard to race, ethnicity, color, religion, sex, sexual orientation, gender identity, marital status, age, genetic information, national origin, disability, military, or veteran status, or any other classification protected by applicable law.</p>
+                <p>We invite all applicants to voluntarily self-identify their race, ethnicity, and gender. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment. Information obtained will be retained in a confidential file and separate from personnel records. This information may only be used in accordance with the provision of applicable federal laws, executive orders, and regulations. If you want more information about any of the sections, please check with a company representative.</p>
+            </div>
+
+            <div class="choose-container">
+                <div>
+                    <p>Gender</p>
+                    <select name="gender" id="gender">
+                        <option value="select">Select...</option>
+                        <option value="select">Male</option>
+                        <option value="select">Female</option>
+                        <option value="select">Decline to self-identity</option>
+                        
+                    </select>
+                </div>
+
+                <div>
+                    <p>Race</p>
+                    <select name="college" id="college">
+                        <option value="select">Select...</option>
+                        <option value="select">Male</option>
+                        <option value="select">Female</option>
+                        <option value="select">Decline to self-identity</option>
+                        
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="opportunities-container">
+                <h2>SELF-IDENTIFICATION OF VETERAN STATUS <span>(Completion is voluntary and will not subject you to adverse treatment)</p>
+                <p>Palantir is a Government contractor subject to the Section 4212 of the Vietnam Era Veterans’ Readjustment Assistance Act of 1974, as amended by the Jobs for Veterans Act of 2002, which requires Government contractors to take affirmative action to employ and advance in employment: (1) Disabled veterans – A veteran who served on active duty in the U.S. military and is entitled to disability compensation (or who but for the receipt of military retired pay would be entitled to disability compensation) under laws administered by the Secretary of Veterans Affairs, or was discharged or released from active duty because of a service-connected disability; (2) Recently separated veteran – A veteran separated during the three-year period beginning on the date of the veteran's discharge or release from active duty in the U.S military, ground, naval, or air service; (3) Active duty wartime or campaign badge veteran – A veteran who served on active duty in the U.S. military during a war, or in a campaign or expedition for which a campaign badge was authorized under the laws administered by the Department of Defense; (4) Armed forces service medal veteran – A veteran who, while serving on active duty in the U.S. military ground, naval, or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985 (61 Fed. Reg. 1209). If you believe that you belong to any of the categories of protected veterans, please indicate by making the appropriate selection.</p>
+            </div>
+
+            <div class="choose-container">
+                <div>
+                    <p>Vetaran Status</p>
+                    <select name="gender" id="gender">
+                        <option value="select">Select...</option>
+                        <option value="select">I identify as one or more of the classifications of the veteren protected list above</option>
+                        <option value="select">I am not a protected veteran</option>
+                        <option value="select">I decline to self identity for protected veteran status</option>
+                        
+                    </select>
+                </div>   
+                <hr> 
+            </div>
+
+            <div class="message-container-sd">
+                <h1>VOLUNTARY SELF-IDENTIFICATION OF DISABILITY</h1>
+                <p>Form CC-305 / OMB Control Number 1250-0005 / Expires 04/30/2026</p>
+                <p>Why are you being asked to complete this form?</p>
+                <p>We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.</p>
+                <p>Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at <a href="https://www.dol.gov/agencies/ofccp">www.dol.gov/ofccp</a></p>
+                <p>How do you know if you have a disability?</p>
+                <p>A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. <span class="disb">Disabilities include, but are not limited to:</span></p>
+
+                <div class="list-items">
+                    <div class="list-item-one">
+                        <li>Alcohol or other substance use disorder (not currently using drugs illegally)</li>
+                        <li>Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS</li>
+                        <li>Blind or low vision</li>
+                        <li>Cancer (past or present)</li>
+                        <li>Cardiovascular or heart disease</li>
+                        <li>Celiac disease</li>
+                        <li>Cerebral palsy</li>
+                        <li>Deaf or serious difficulty hearing</li>
+                        <li>Diabetes</li>
+                        <li>Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders</li>
+                    </div>
+                    <div class="list-item-one">
+                        <li>Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome</li>
+                        <li>Intellectual or developmental disability</li>
+                        <li>Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD</li>
+                        <li>Missing limbs or partially missing limbs</li>
+                        <li>Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports</li>
+                        <li>Nervous system condition, for example, migraine headaches,</li>
+                    </div>
+                    <div class="list-item-one">
+                        <li>Parkinson’s disease, multiple sclerosis (MS)</li>
+                        <li>Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities</li>
+                        <li>Partial or complete paralysis (any cause)</li>
+                        <li>Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema</li>
+                        <li>Short stature (dwarfism)</li>
+                        <li>Traumatic brain injury</li>
+                    </div>
+                </div>
+
+                <div class="choose-container">
+                    <div>
+                        <p>Disability Status</p>
+                        <select name="gender" id="gender">
+                            <option value="select">Select...</option>
+                            <option value="select">Yes, I have a disability or have in the past</option>
+                            <option value="select">No, I dont have a disability and have not one in the past</option>
+                            <option value="select">I dont want to answer</option>
+                        </select>
+                    </div> 
+                </div>
+
+                <div class="public-burder-statement-container">
+                    <p>PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete</p>
+                </div>
+            </div>
+
+            
+            <button class="submit-button">Submit Application</button>
         </div>
        </section>
+
+       <div class="footer-section">
+        <p><a href="https://www.palantir.com/">Palantir Technologies Home Page</a></p>
+        <div class="footer-image-container">
+            <span>Jobs Powered By</span>
+            <img src="./images/lever-logo-full.svg" alt="">
+        </div>
+       </div>
 
     </div>
 </body>

@@ -20,7 +20,7 @@ metadata = data about data , head tag ham use karte hein meta data define karne 
 
 Tags:
 -----
-Tags is created with the help of greater than sign (opening tag) and smaller then sign (closing tag)
+Tags is created with the help of greater than sign (closing tag) and smaller then sign (opening tag)
 and in between we will decide which type of tag we actualy tag . for example 
 <p/> => this is called ptag. 
 

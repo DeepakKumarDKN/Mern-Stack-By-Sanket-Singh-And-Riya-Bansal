@@ -40,3 +40,69 @@ and in between we will decide which type of tag we actualy tag . for example
 row(up-> down) column(left->right)
 tr => to define rows in a table
 colspan="2" => it will take 2 column
+
+
+<br>
+----
+br tag is something where closing tag is not required.
+
+Pre Tag:
+--------
+we can define a block of text and can display it in the same manner as it is written.
+aur pre-tag mein jo display hota hai uska font monospace font hota hein.
+ <pre>
+        hello how are you 
+        i a fine how are you
+</pre>
+
+<p>
+    hello how are you 
+    i a fine how are you
+</p>
+
+pretag outP3WEut:
+---------------
+hello how are you 
+i a fine how are you
+
+p tag output:
+---------------
+hello how are you i a fine how are you
+
+This will look same the way you have written
+but if you have done the same thing with p you will not get the same resultyou wil get to see 
+all in a straight line.
+
+Code-tag:
+--------
+Code display karne ke liye code tag bhi ham use kar sakhte hein.
+par pre tag jo hota hai woh formatting kar deta hain
+aggar koi bhi formatting nahi chahiye toh code tag use karo.
+
+HTML Elements:
+--------------
+. inline elements
+. block level elements
+
+Inline Elements always display on the same line and take as much with as required.
+example : a-tag, span-tag, image-tag, etc etc. 
+if you want to set height and width on inline-elements then it doesnot make any diffrence.
+margin-top and margin-bottom cannot be applied to inline element only left and right can be applied
+same goes for padding also. aggar ham denge bhi toh accha nahi lagega dekhne mein so its better not to use.
+
+. inline elemnts ko ham display:block; deke usko as a  block convert karke ham us mein style de skhte hein. 
+
+block level elements: always display on the next line / new line and takes the entire width of the page.
+we can add margin and padding to all sides of an block level element.
+
+block level elements ko ham display:inline; bhi kar sakhte hein. 
+
+Formatting Tags:
+----------------
+.physical tags => physical tags are usually called as presentational tags which doesnot define any meaning in the text
+it is just used for styling. just to add stylng to the text.
+
+underline-tags, itaic-tag, bold-tag these are aso caled non-semantic tags. 
+
+.semantic tags: jo text mein meaning define karte hai as well as adding style to that tag.
+for example paragraph tag. 

@@ -1,0 +1,42 @@
+HTML: 
+======
+Hyper Text Markup language basically used for documentation pehle use hota tha but aaj kal use nahi hote hein
+kyun ki aaj kal google docs jaise software aa gaya hai jo advanced version hai us mein woh sare kam hote hain jo ham
+HTML mein kar sakhte hein.
+
+HyperText matlab linking .. jab ham ek link mein click karte hai ham ek webpage se aur ek pageko jate hain 
+usko ham bolte hain HyperText. 
+
+HyperText is basically a way of organizing text that allows the reader to navigate from one page to
+another page 
+
+HTML webpage ko structure karne ke liye use hota hai.
+HTML elements are hiercheial in nature that means we can created nested html elements (ek elements ke ander aur ek element)
+due to which a tree like structure is created.
+
+
+extension for HTML File => .html
+metadata = data about data , head tag ham use karte hein meta data define karne ke liye.
+
+Tags:
+-----
+Tags is created with the help of greater than sign (opening tag) and smaller then sign (closing tag)
+and in between we will decide which type of tag we actualy tag . for example 
+<p/> => this is called ptag. 
+
+<table border="1">
+    <tr>
+        <th>Course Name</th>
+        <th>Mentor Name</th>
+        <th>Course Duration</th>
+    </tr>
+    <tr>
+        <td>FullStack WebDev</td>
+        <td>Sanket & Riya</td>
+        <td>8-9 Months</td>
+    </tr>
+</table>
+
+row(up-> down) column(left->right)
+tr => to define rows in a table
+colspan="2" => it will take 2 column

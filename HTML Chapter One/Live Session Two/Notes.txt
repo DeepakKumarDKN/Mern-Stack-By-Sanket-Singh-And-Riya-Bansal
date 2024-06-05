@@ -1,0 +1,39 @@
+forms:
+------
+action attribute is used to perform a sort of action to be performed when the form is submitted.
+ 
+
+post: yahan mein server ko kuch bhejna chahhti hoon.
+
+get: means we are trying to get some response from the server.
+
+
+Example:
+---------
+<div>
+    <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="select">Select...</option>
+            <option value="ind">India</option>
+            <option value="aus">Aus</option>
+            <option value="sa">South africa</option>
+            <option value="eng">England</option>
+        </select>
+ </div>
+
+ aggar laba=el ko associate karna hai ek particular next tags se matlab dono ke
+ beech ek aggar relatonship banana hai toh ham log aise code likh sikhte hein
+ jahan hamne label for = "country" and id = "country" diya hai.
+
+ aur yahan jo data submit hoga woh kich is tarag hoga. 
+ https://website_name/submit?"country"="ind"
+ meine select ke andar name ko specify kiya hai na esliye data es tarah send ho raha hai.
+
+ aur aggar apne name = "country" specify nahi kiya select tag ke andar tab oh data jaega hi nahi
+ url mein shoe karega hi nahi. just try it out once by removing name="country"
+
+ so aa jo bhi ek name mein mention karoge wohi chiz apki key ki form mein jaega:
+ {
+    "country":"ind"
+ }
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms example</title>
+</head>
+<style>
+    div{
+        margin-bottom: 10px ;
+    }
+</style>
+<body>
+    <form action="sucess.html" method="GET">
+        <div>
+            <label for="firstnme">firstname</label>
+        <input type="text" id="firstname" name="firstname">
+
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+    
+        </div>
+        <div>
+            <label for="gmail">Gmail</label>
+            <input type="gmail" name="gmail" id="gmail">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+
+            <input type="radio" value="Male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" value="Female" name="gender">
+            <label for="female">Female</label>
+            
+
+            <input type="radio" value="Transgender" name="gender">
+            <label for="transgender">Transgender</label>
+    
+        </div>
+
+        <div>
+            <label for="country">Country</label>
+            <select id="country">
+                <option value="select">Select...</option>
+                <option value="ind">India</option>
+                <option value="aus">Aus</option>
+                <option value="sa">South africa</option>
+                <option value="eng">England</option>
+            </select>
+        </div>
+        
+        <input type="submit" value="submit">
+    </form>
+
+
+    <form action="/submit-your-form">
+        <input type="checkbox" id="option1" name="option1" value="Option1">
+        <label for="option1">Option 1</label><br>
+      
+        <input type="checkbox" id="option2" name="option2" value="Option2">
+        <label for="option2">Option 2</label><br>
+      
+        <input type="checkbox" id="option3" name="option3" value="Option3">
+        <label for="option3">Option 3</label><br>
+      
+        <input type="submit" value="Submit">
+      </form>
+        
+</body>
+</html>

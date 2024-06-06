@@ -6,3 +6,23 @@ https://www.evernote.com/shard/s406/client/snv?isnewsnv=true&noteGuid=958ae154-0
 
 --
 
+Audio and Video Tag:
+-------------------
+preload is applicable on both audio and video tag.
+it provide the hint to the browser that how much of the video content will be loded when the page load.
+
+the attributes in preload are: 
+    auto
+    metadata
+    none
+
+preload = auto mean jo mera video hai it will be preloaded. jaise hi mera page load hoga
+video apne aap chalega.
+
+Some Important Points:
+-------------------------
+inline elements jo hamara hota hai unmein ham width nahi de sakhte but image mein toh ham de raha hai,
+image ek inline elements hoke bhi ham us mein de rahe hein , img ek replaced inline element hai
+jitne bhi replaced elements hote hein jaise ki input-tag , img-tag, text-tag , jitne bhi replaced 
+elements hai unka khud ka kuch intrinsic dimension hota hein jaise ki ek image ek natural width aur height
+hoti hai and they can accept width and height property even though they are inline. 

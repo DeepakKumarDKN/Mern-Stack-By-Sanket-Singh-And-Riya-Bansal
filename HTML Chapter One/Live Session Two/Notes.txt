@@ -68,3 +68,8 @@ we have to give same value to for and id.
     "country":"ind"
  }
 
+---------------------------------------------------------------------------------------------
+Question asked bya student why do we use name in the form: 
+-------
+when we will submit the form the data will save in the server in the form of jason format 
+and jason format is all about key and value pair so name will behave as a key. 

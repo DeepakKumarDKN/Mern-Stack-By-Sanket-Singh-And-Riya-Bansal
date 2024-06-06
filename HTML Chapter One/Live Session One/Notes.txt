@@ -104,5 +104,13 @@ it is just used for styling. just to add stylng to the text.
 
 underline-tags, itaic-tag, bold-tag these are aso caled non-semantic tags. 
 
+non semantic tags dont have a specefic meaning or a purpose.
+
 .semantic tags: jo text mein meaning define karte hai as well as adding style to that tag.
-for example paragraph tag. 
+for example paragraph tag, main-tag, header-tag, footer-tag, main-tag. 
+
+<h1>Heading</h1> => here i can accurately tell that the content inside the h1 tag is heading.
+
+benefits of using semantic tags are : 
+    1. readible
+    2. accessibility

@@ -1,7 +1,9 @@
 forms:
 ------
 action attribute is used to perform a sort of action to be performed when the form is submitted.
- 
+it is usually the URL of the server also jahan pe apka form jake submit hota hai. 
+
+
 
 post: yahan mein server ko kuch bhejna chahhti hoon.
 
@@ -20,8 +22,37 @@ Example:
             <option value="eng">England</option>
         </select>
  </div>
+------------------------------------------------------------------------------------------------------------
+ usually forms mein ham log label ko input ke saath associate karte hein and label ko hamesha
+ input ke saath bind kar sakhte ho matlab aap input label ke andar rakh sakhte ho ya phir bahar likh sakhte ho.
+ ex example mein meine bahar likha hua hai.
 
- aggar laba=el ko associate karna hai ek particular next tags se matlab dono ke
+ example:
+ --------
+ <label>
+    <input type="text"/>
+    // this is called implict labelling
+ </label>
+
+ example 2:
+ ---------
+  <label for="username">Username</label>
+  <input type="text" name="username", id= "username"/>
+
+  // this is called explicit labelling. yahan meine label ke bahar define kiya hai input ko.
+
+-------------------------------------------------------------------------------------
+Some more info about label:
+-
+<label for="username">Username</label>
+for => attribute.
+
+for attribute jo hota hai label ke andar woh explicitly associate karta hain label ko.
+and for mein apne jo value diya hai woh value match karna chahiye id attribute ke saath i mean 
+we have to give same value to for and id.
+
+------------------------------------------------------------------------------------
+ aggar label ko associate karna hai ek particular next tags se matlab dono ke
  beech ek aggar relatonship banana hai toh ham log aise code likh sikhte hein
  jahan hamne label for = "country" and id = "country" diya hai.
 

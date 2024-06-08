@@ -1,0 +1,58 @@
+What happens in the browser when we open a HTML File.
+----
+when we open ah HTML in the browser a lot of things happen.
+These steps are called as CRP (CRITICAL RENDERING PATH)
+
+Critical Rendering Path mein 6 steps hote hein. 
+------------------------------------------------
+so with the help of executing these 6 steps we will get an final output
+of the complete webpage from an HTML Page.
+
+1) Constructing DOM TREE.
+2) Constructing the CSS on Tree.
+3) Running the Javascript.
+4) Create the render Tree. 
+5) Layout. 
+6) Painting. 
+
+1) Constructing the DOM Tree. 
+-----------------------------
+Before understaing DOM Tree we should know about these two terms called DOM and Tree. 
+
+Tree:
+-----
+for example meine jo yeah folder banaya hai mern stack folder. 
+pehle mera folder atta hai Mern Stack By Saket => HTML Chapter One => Live Session Four
+so esko ham ek tree bhi bol sakhte hein .
+
+so hamare computer mein structure store karne ke liye computer ko memory mein kuch toh
+special karna padhta hoga . 
+
+Yeah ek hierarchy based structure hai so computer mein aise bahut sare 
+situations hote hein jahan hierarcial data store karna padhta hai 
+and aise hierarcial based dats store karne ke liye computer ek tree banata 
+hai uske liye computer memory mein ek tree banata hai.
+
+Tree is a way to store data hierarchy based data. so computer mien kahin bhi data
+store karni hai toh woh ek Tree ke form mein hoga.
+
+DOM Tree:
+---------
+Woh Tree jo HTML ke data ko save karta hai usee bolte hein DOM Tree..
+DOM Tree stores the hiearchy based structure of HTML. 
+
+DOM => Document Object Model. 
+    Document represent an HTML Document.
+
+
+DOM hai woh tree jo tumhara browser banega HTML ko represent karne ke liye. 
+--
+Jo hamara index.html file hai woh hamara save hota hai harddisk mein par jab ham 
+usko run karte hein woh ek process mein convert hota hai and process is a
+program under execution aur yeah process hamari RAM mein hoti hein, and jo
+bhi ham baat kar rahe hai CRP (Critical Rendering Path) woh sab kuch us RAM 
+mein hoti hein.  
+
+Par sab kuch RAM mein hi kyun hota hai. Computer mein 3 tarah ki memory hoti hein 
+1. Secondary Memory : Secondary memory sasti hoti hein.
+2. Prmary memory(RAM) : 

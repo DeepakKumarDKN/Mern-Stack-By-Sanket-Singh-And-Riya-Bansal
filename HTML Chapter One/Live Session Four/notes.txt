@@ -39,7 +39,8 @@ store karni hai toh woh ek Tree ke form mein hoga.
 DOM Tree:
 ---------
 Woh Tree jo HTML ke data ko save karta hai usee bolte hein DOM Tree..
-DOM Tree stores the hiearchy based structure of HTML. 
+DOM Tree stores the hiearchy based structure of HTML.
+DOM hai woh tree jo tumhara browser banaega HTML Tree ko reprsent karne ke liye.  
 
 DOM => Document Object Model. 
     Document represent an HTML Document.
@@ -53,6 +54,60 @@ program under execution aur yeah process hamari RAM mein hoti hein, and jo
 bhi ham baat kar rahe hai CRP (Critical Rendering Path) woh sab kuch us RAM 
 mein hoti hein.  
 
+program matlab jo ham code likhenge aur jab ko execute hone lagega jab woh computer mien
+run hone lagega tab ham kahenge process. so process is program under execution. 
+
 Par sab kuch RAM mein hi kyun hota hai. Computer mein 3 tarah ki memory hoti hein 
 1. Secondary Memory : Secondary memory sasti hoti hein.
-2. Prmary memory(RAM) : 
+2. Primary memory(RAM) : Secondary se expenseive hota hai and fast hota but jyada expenseive nahi hota hai.
+3. Cache : sabse fast and sabse Expenseive
+
+So RAM mein esliye hota hai kyun ki yeah RAM decently expenseive bhi nahi hota hai and decently 
+fast hota hai. 
+
+so hamne toh file ko save kiya hai hard-disk mein jab ham esko run karange (file ko)
+run karne pe yeah banta hai process aur es mein sabse pehla step hota hai.
+Contruction Of Dom. 
+
+How is DOM Constructed:
+------------------------
+Dom ki construction mein 2 steps hote hein. 
+1.parsing => html code ko read kiya jata hai.
+2.tokenisation =>  in tokenisation we break the HTML into individual Units. 
+3. Converting these tokens into objects and then combine to make a tree Called as DOM Tree. 
+
+
+
+Constructing CSSOM Tree:
+-------------------------
+Jaisa HTML hamare document ko structure deta hai. Waise hi ek aur markup language hai CSS
+Casading Style sheets . CSS ka kam hota hai beautyfication. look and  feel wala hota hai CSS mein. 
+
+
+just like DOM is created for HTML. 
+CSSOM is created for CSS (CSS Object Module) jaise DOM Tree banega waise hi CSSOM Tree banta hai
+
+This is a brand new tree diffrent from DOM.
+
+Running Javascript:
+--------------------
+Es phase main logics ko use kiya jaega . 
+
+Render Tree:
+-------------
+DOM + CSSOM = Render Tree
+Render Tree is a combination is DOM and CSSOM it only contain visible elements of the pages.
+css mein ham kuch elemnts ko hide kar dete hai by using display:none; 
+and jo bhi chiz ko ham hide karte hai woh render tree ka part nahi banti.
+
+Layout:
+-------
+Is step ko Re-Flow bhi kaha jata hai. this step does all the measurement also calculate 
+position on the page where elements are placed.
+
+Layouting the phase mein images load hote hein. 
+
+Painting: 
+---------
+At this step page is painted pixel by pixel on the screen.
+

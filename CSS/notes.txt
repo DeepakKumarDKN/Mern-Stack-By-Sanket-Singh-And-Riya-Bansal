@@ -1,0 +1,12 @@
+Box Model:
+----------
+Box Model use karke ham element ki seizing and spacing ko calculate kar paenge.
+
+Important Topics to be considered in Box Model are: 
+    1. content => the text we write
+    2. pading.
+    3. border. 
+    4. margin.
+
+in border box when we allocate width , width is applied to
+content, padding, border

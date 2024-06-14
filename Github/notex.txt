@@ -1,0 +1,7 @@
+git init => this will create an empty repo, initialize an empty repo. 
+internally it create a .git foldfer which has a lot a stuffs, folders
+
+so if you remove .git folder then now one will manage your git repositry 
+if you want to re-initialize it then you can just do it by writting `git init`
+
+so the git folder is actually the power-house.

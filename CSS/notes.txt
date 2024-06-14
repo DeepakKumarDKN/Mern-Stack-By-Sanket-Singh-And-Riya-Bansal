@@ -16,6 +16,7 @@ uss 100 mein se hi divide hoga jega
 for example 90 content and 8 and 2 jaega padding and bottom ko
 
 par content box mein aisa nhi hota hai us pura ka pura 100 jata hai content ko aur baki sab alag allag se hoga. 
+border mein ussi 100 ke andar hame content dena hai padding bhi dena hai and border bhi dena hai.
 
 in border box when we allocate width , width is applied to
 content, padding, border

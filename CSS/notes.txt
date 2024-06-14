@@ -8,5 +8,14 @@ Important Topics to be considered in Box Model are:
     3. border. 
     4. margin.
 
+content-box: agar meine width diya toh toh sirf apply hoga content pe paddin and border sab allag allag se hoga. 
+border-box : aggar meine esmien width diya woh suppose meine esmine width diya hei 100px woh woh sirf and sirf
+content pe apply nahi hota hai woh dividide ho jata hai jitna content lena hai lega aur baki padding aur border
+uss 100 mein se hi divide hoga jega 
+
+for example 90 content and 8 and 2 jaega padding and bottom ko
+
+par content box mein aisa nhi hota hai us pura ka pura 100 jata hai content ko aur baki sab alag allag se hoga. 
+
 in border box when we allocate width , width is applied to
 content, padding, border

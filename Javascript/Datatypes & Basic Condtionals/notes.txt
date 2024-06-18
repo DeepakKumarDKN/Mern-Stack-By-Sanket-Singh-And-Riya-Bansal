@@ -16,3 +16,32 @@ es bucket, jo ki hamara data store karta hai esiko kehte hein ham variables.
 har bucket ka apna ek name hota hai or usko ham bolte hai variable name.
 aur es variable name ko use karke ham kisi bhi bucket ko uniquely identify kar sakhte hein.
 modify kar sakhte hein, data add kar paenge, and us bucket se data ko fetch bhi kar paenge.
+
+How to Declare a variable:
+--------------------------
+Thereare three ways to declare a variable: 
+1. var
+2. let
+3. const
+
+let name = "deepak 
+var email = 'deepak@gmail.com"
+const fullname = "deepak kumar nayak"
+
+Datatypes:
+-----------
+datatypes defines the classification of diffrent type of values we can store in our program
+diffrent datatypes:
+--------------------
+number, string, undefined, boolean, 
+
+Rules for naming a variable:
+-------------------------------
+. variable name can contain english alphabets, digits, underscore and dollar no other character can be used. 
+. variable name cannot start with a digit, starting digit se nahi ho sakhta hai but beech mein ham use kar sakhte hein.
+. variable names are case sensitive (for example if you have a variable name money you have to access it using money not Money)
+. we cannot use a keyword for a variable name
+. keywoard are the reserve words which have some difrent and specefic meaning for example 
+    let keyword we cannot use keyword as a variable kyun ki javascript ne let ki kis specefic 
+    purpose ke liye rakha hua hai.
+. 

@@ -1,2 +1,18 @@
 Basic Datatypes and Codtionals:
 --------------------------------
+Javascript is a programming Language. 
+    capability to make decessions.
+    simply do task repetetions
+
+Variables:
+-----------
+To store data in our JS Code we can use something called as variables.
+variables are kind of buckets where we can store something.
+aggar ham js program mein ek variable banate hein eska matlab woh 
+memory mein bucket banaega or us bucket ke andar ham data ko store kar paenge. 
+
+es bucket, jo ki hamara data store karta hai esiko kehte hein ham variables.
+
+har bucket ka apna ek name hota hai or usko ham bolte hai variable name.
+aur es variable name ko use karke ham kisi bhi bucket ko uniquely identify kar sakhte hein.
+modify kar sakhte hein, data add kar paenge, and us bucket se data ko fetch bhi kar paenge.

@@ -17,6 +17,7 @@ har bucket ka apna ek name hota hai or usko ham bolte hai variable name.
 aur es variable name ko use karke ham kisi bhi bucket ko uniquely identify kar sakhte hein.
 modify kar sakhte hein, data add kar paenge, and us bucket se data ko fetch bhi kar paenge.
 
+
 How to Declare a variable:
 --------------------------
 Thereare three ways to declare a variable: 
@@ -27,6 +28,28 @@ Thereare three ways to declare a variable:
 let name = "deepak 
 var email = 'deepak@gmail.com"
 const fullname = "deepak kumar nayak"
+
+Exaplanation for let var and const. 
+-----------------------------------
+var firstName = "deepak"
+i can also change the value of firstName just by simply writtng: 
+no need of writing again [var firstname] because here i just only want to change the value which 
+i can do it only by writting 
+
+// change the value
+firstName = "rahul"
+
+console.log(firstName) => rahul (now firstname is pointing towards rahul)
+
+After declaring and initializing value to it i can also redeclare it again with same variable name: 
+var firstName = "deepak"
+var firstName = "rahul"
+
+console.log(firstName)
+i will not get any kind of error here as i have tried it with var.
+
+
+
 
 Datatypes:
 -----------

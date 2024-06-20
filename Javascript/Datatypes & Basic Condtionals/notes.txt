@@ -49,7 +49,41 @@ console.log(firstName)
 i will not get any kind of error here as i have tried it with var.
 
 
+let keyword:
+------------
+I can also declare a variable using let keyword but there is catch it is diffrent from var. 
+let userName = "deepak"
 
+
+let username = "deepak" => not allowed to redeclare it again.
+
+once it is declare i cannot redeclare it using the same variable(userName)
+i will get and error that userName has already been declared but i can do the same thing with var
+because there i will not get an error (SyntaxError that the identifier userName has alrteady been declared). 
+
+. So i cannot redeclare using the same value but i can reinitialize a new value to it and can
+change its value.
+
+let userName = "deepak"
+userName = "rahul"
+console.log(userName) => rahul
+
+const keywoard:
+----------------
+const ko use karke ham variable declare kar sakhte hai. but ek bar declare ho gaya ham esko
+na dubara declare kar sakhte hain aur na hi dubara re-initialize kar paenge so const let se thoda
+bahut allag hai. 
+
+let username; => kuch na kuch assign karna hi padega aise esko khali nahi chod sakhte.
+aggar aise bina assign kiya chod diya toh hame error milega
+
+SyntaxError: Missing initializer in const declaration
+
+aur aggar value assign karne ke baad usko change karne ki kosish ki tab bhi hame error hi milega
+TypeError: Assignment to constant variable.
+
+so hai na thda bahut intresting var se allag hai let aur let se allag hai const. 
+let and const are block scope esko ham baad mein padhenge.
 
 Datatypes:
 -----------
@@ -67,4 +101,5 @@ Rules for naming a variable:
 . keywoard are the reserve words which have some difrent and specefic meaning for example 
     let keyword we cannot use keyword as a variable kyun ki javascript ne let ki kis specefic 
     purpose ke liye rakha hua hai.
-. 
+. it better to start a variable name with small letter we can also use camelCase(combination og small and capital letter)
+    let userName = "deepak"

@@ -45,6 +45,9 @@
  * which is kept for the timebeing untill and unless some value is assigned to it(variable)
  * till that point it will store its value called undefined. 
  * 
+ * Javascript is a loosely typed languages which is also known as weakely typed language
+ * 
+ * 
  * 
  * 
  */

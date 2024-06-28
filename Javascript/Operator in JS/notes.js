@@ -45,9 +45,33 @@
  * which is kept for the timebeing untill and unless some value is assigned to it(variable)
  * till that point it will store its value called undefined. 
  * 
- * Javascript is a loosely typed languages which is also known as weakely typed language
+ * BigInt:
+ * -------
+ * Javascript mein aisa nahi hai ki ham koi aisa big number save  kar sakhte hein.
+ * aggar bada number use karna hai toh hame use karna padega BigInt
  * 
+ * soo aggar hame ek BigInt likhna hai toh hame last mein n ko append kar sakhte hain for ex.
+ * let number = 123456789079663947569503038475472672890506867563782904785758n
  * 
+ * aisa last mein n lagane se kya hoga woh pura ka pura number ko print karega. 
+ * console.log(number)
+ * 123456789079663947569503038475472672890506867563782904785758n
+ * 
+ * aggar hame chota number use karna hai as BigInt tab bhi ham kar sakhte hein. 
+ * let numberTwo = 1234n
+ * console.log(number) => 1234n 
+ * 
+ *
+ * Objects:
+ * -------
+ * Aggar hame key or value ka data lo store karna hai toh ham use karenge objects
+ * Example:
+ * --------
+ * let bioData = {
+ *      name : 'deepak',
+ *      gmail : 'deepaknnayak34@gmail.com',
+ *      location: 'Kolkata'
+ *    }
  * 
  * 
  */

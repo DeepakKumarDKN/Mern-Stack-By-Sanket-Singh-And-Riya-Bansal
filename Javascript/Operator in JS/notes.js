@@ -152,6 +152,11 @@
  * not(!)
  * 
  * these are called logical operators: 
+ * operands of a loical operatorsare always boolean if we donot pass boolean then 
+ * javascript automatically convert them to boolean.
+ * 
+ * es operators ke operands always boolean hote hein aggar hamne boolean pass nahi kiya toh 
+ * javascript khudse esko boolean mein convert karne ki kosish karengi.
  * --
  * and logical operator
  * ----------------------
@@ -169,6 +174,13 @@
  * true false true
  * false true true
  * false flase false
+ * 
+ * not operator:
+ * -------------
+ * abhi tak ke jitne operator hai jaise ki and, or woh sab 2 operands pe chalega
+ * pat not hamesha ek hi operands pe chalega
+ * !true => false 
+ * !false => true
  */
 
 

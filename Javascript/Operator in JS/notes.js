@@ -74,4 +74,44 @@
  *    }
  * 
  * 
+ * Primitive Datatype and Reference Datatype:
+ * ------------------------------------------
+ * 
+ * Primitive Datatype:
+ * -------------------
+ * 
+ * let num1 = 6;
+ * let num2 = num1
+ * 
+ * console.log(num1) => 6
+ * console.log(num2) => 6
+ * 
+ * num1++; 
+ * 
+ * console.log(num1) => 7
+ * console.log(num2) => 6
+ * 
+ * 
+ * Reference Datatype (array, objects):
+ * --------------------
+ * const arrayOne = [1,2,3,4]
+ * const arrayTwo = arrayOne
+ * 
+ * console.log(arrayOne) => [1,2,3,4]
+ * console.log(arrayTwo) =>  [1,2,3,4]
+ * arrayOne.push(5)
+ * 
+ * suppose yahan pe meine koi changes kiye jaise ki meine 5 ko insert kiya hai arrayOne mein 
+ * aab yahan pe kya hoga ki jo changes meine arrayOne mein kiya tha woh sare changes reflect honge 
+ * arrrayTwo mein 
+ * 
+ * yaho hota hai main diffrence between primitive and reference datatype reference mein
+ * arrayOne and arrayTwo dono ko same memmory location ko point out karenge esliye aggar meine 
+ * arrayOne mein changes kiya woh sare changes reflect hua arrayTwo mein 
+ * 
+ * par promitive datatype jaise ki int, string es mein kya hoga aggar maine koi changes kiya num1 mein 
+ * toh woh num2 mein reflect nahi hoga kyun ki dono ko allag allag memory location mila hua hai. 
+ * 
+ * 
+ * 
  */

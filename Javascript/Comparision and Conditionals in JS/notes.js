@@ -34,6 +34,31 @@
  * thse values which convert to true in the to boolean operation is called truthy values rest are false values: 
  * falsy value: null, undefined, +0, -0, false, " ". 
  * truthy vaues:  
+ * 
+ * Comparision Operator (<=, >= <, >, ==, ===):
+ * ---------------------------------------
+ * Abstract Equality Operator (==) => only checks if a and b are equal.
+ * Here datatype is not checked thats why i am getting true because b is not int type its a string type.
+ * 
+ * 
+ * 
+ * Example for (==)
+ * -----------------
+ * 
+ * let a = 10 
+ * let b = "10" 
+ * console.log(a == b) => true  
+ * 
+ * 
+ * Strict Equality Operator (===) => it not only checks equal are not but it will checks its datatype:
+ * Strict equality will check for numbers as well as for datatype
+ * 
+ * Example for (===):
+ * --------------
+ * let a = 10 
+ * let b = 10
+ * 
+ * console.log(a === b ) => true
  */
 
 

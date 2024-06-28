@@ -112,6 +112,63 @@
  * par promitive datatype jaise ki int, string es mein kya hoga aggar maine koi changes kiya num1 mein 
  * toh woh num2 mein reflect nahi hoga kyun ki dono ko allag allag memory location mila hua hai. 
  * 
+ * Operators:
+ * -----------
+ * Arithmetic Operators:
+ * ---------------------
+ * 2+2 => 4 (2 and 3 are operand + is operator.)
+ * 2-3 => -1
+ * 2*3 => 6
+ * 2/3 => gives quotient
+ * 2%3 => 2 (remainder) 9%3 = 0(remainder)
+ * 2**3 => 8
  * 
+ * Assignment Operator (=, ===, >= <=):
+ * ------------------------------------
+ * == :  these operator help us to assign value toa variable
+ * let a =10; 
  * 
+ * Adding 20 to the variable a:
+ * -----------------------------
+ * a = a+20
+ * a => 30
+ * 
+ * we can also write like a+=20 that means a = a+20
+ * 
+ * Substracting 20
+ * ---------------
+ * a-=20
+ * a = a-20
+ * 
+ * Multplying 3:
+ * --------------
+ * a*=3;
+ * a= a*3
+ * 
+ * Logic Gates(and, or, not ):
+ * ---------------------------
+ * and (&&)
+ * or(||)
+ * not(!)
+ * 
+ * these are called logical operators: 
+ * --
+ * and logical operator
+ * ----------------------
+ * and mein dono ko true hona padega , dono condition ko true hona padega otherwise false ho jaega
+ * True True True
+ * True False False
+ * False True False
+ * False False False
+ * 
+ * or logical operator:
+ * ---------------------
+ * or mein koi ek condition aggar true hoga toh true output milega. 
+ * 
+ * true true true
+ * true false true
+ * false true true
+ * false flase false
  */
+
+

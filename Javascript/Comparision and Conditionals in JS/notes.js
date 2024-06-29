@@ -108,5 +108,19 @@
  *      console.log('show all content')
  * }
  * 
+ */
+
+/**
+ * Nested If Else:
+ * ---------------
+ * let isuserSubscribed = true;
+ * let userHasLionsGatePlay = true; 
+ * if(isuserSubscribed){
+ *      if(userHasLionsGatePlay){
+ *          console.log('Can see Videos Related To Lions gate play')
+ *      }else{
+ *          console.log('Take The Subscription for Lions Gate Play')
+ *      }
  * 
  */
+

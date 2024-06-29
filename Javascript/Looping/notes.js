@@ -59,12 +59,13 @@
  *      i+=1
  * }
  * 
+ * Unary Operator:
+ * ----------------
+ * let a = 1; 
+ * console.log(a++) => this means it will first print the value of a and then increase the value of a
+ * console.log(a) => 2 here i will get the increment value of a. 
+ * a++ => postfix (pehle use ho gaya and increment baad mein)
  * 
  * 
+ * ++a => eska matlab hai prefix operator pehle increment hoga andd then ham usko use karte hein.
  */
-let i=0;
-do{
-    
-    console.log(i)
-    i+=1
-}while(i<=10)

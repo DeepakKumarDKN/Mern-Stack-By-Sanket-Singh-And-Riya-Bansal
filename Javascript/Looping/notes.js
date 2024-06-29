@@ -40,12 +40,31 @@
  * 1 0 0
  * -----
  * 0 0 1 => 1
+ */
+
+/**
+ * Loops:
+ * ------
+ * for Loop: 
+ * --------
+ * for(let i=0; i<=2; i+=1){
+ *      console.log(i)
+ * }
+ * 
+ * while Loop:
+ * -----------
+ * let i=0
+ * while(i<=10){
+ *      console.log(i)
+ *      i+=1
+ * }
  * 
  * 
- * bitwise or
- * bitwise xor 
- * bitwise not 
- * left shift
- * right shift 
  * 
  */
+let i=0;
+do{
+    
+    console.log(i)
+    i+=1
+}while(i<=10)

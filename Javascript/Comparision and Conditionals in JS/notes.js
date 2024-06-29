@@ -19,6 +19,7 @@
  * console.log(10 && 0) => 0
  * console.log(0 && 10) => 0
  * console.log(0 && null) => 0
+ * console.log(40 and null) => null
  * 
  * Or Operator
  * ------------
@@ -38,9 +39,18 @@
  * Comparision Operator (<=, >= <, >, ==, ===):
  * ---------------------------------------
  * Abstract Equality Operator (==) => only checks if a and b are equal.
- * Here datatype is not checked thats why i am getting true because b is not int type its a string type.
+ * Here datatype is not checked thats why i am getting true instead of having the a as int and b as string still i am getting true.
+ * and there is a reason behind it why because a is an int type so it wil convert the b to an nt type and it is being done by javascript 
+ * we dont have to worry for that. 
  * 
+ * aggar meine a mein string use kiya hota and b mein int use kiya hota for example 
+ * let a = "10"
+ * let b = 10 
+ * console.log(a == b) => true 
  * 
+ * es example mein b ko convert kiya jaega into string so the change is being done on basics of first operand.
+ * 
+ *  
  * 
  * Example for (==)
  * -----------------
@@ -48,6 +58,7 @@
  * let a = 10 
  * let b = "10" 
  * console.log(a == b) => true  
+ * console.log(a === b) => false
  * 
  * 
  * Strict Equality Operator (===) => it not only checks equal are not but it will checks its datatype:
@@ -59,6 +70,13 @@
  * let b = 10
  * 
  * console.log(a === b ) => true
+ * 
+ * Abstract not equals operator (!=)
+ * ----------------------------------
+ * console.log("10" != 10) => false
+ * console.log("10" !== 10) => true
+ * 
+ * Note: Comparison Operator is otherwise called as relational operator.
  */
 
 

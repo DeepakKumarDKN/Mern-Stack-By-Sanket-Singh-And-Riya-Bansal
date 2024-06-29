@@ -80,3 +80,33 @@
  */
 
 
+/**
+ * Decission Making:
+ * -----------------
+ * In programming language we can take decession to do a particular task based on conditions
+ * Condition ke hisab se ham koi particluar task ko perform karenge. 
+ * 
+ * for example: 
+ * -----------
+ * is user is logged in show him the netflix dashboard or show him the netflix loginpage
+ * 
+ * let isuserLogin = true;
+ * let isPaidUser = true;
+ * if(isuserLogin && isPaidUser){
+ *      console.log('you will be redirected to nwtflix dashboard')
+ * }else{
+ *      console.log('please login in first')
+ * }
+ * 
+ * 
+ * let userSubscription = 'unsubscribe; 
+ * if(userSubscription == 'unsubscribe){
+ *      console.log('Show pricing page')
+ * }else if(userSubscripion == 'super'){
+ *      console.log('Only Hindi Content')
+ * }else if(userSubscription == "premium"){
+ *      console.log('show all content')
+ * }
+ * 
+ * 
+ */

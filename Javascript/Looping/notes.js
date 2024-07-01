@@ -211,3 +211,32 @@
  * 
  */
 
+/**
+ * Calling A function
+ * -------------------
+ * function greetingToEveryOne(){
+ *      console.log('hello-One')
+ *      console.log('Hello-Two')
+ * }
+ * 
+ * greetingToEveryOne() => here i am calling a function 
+ * greetingToEveryOne()
+ * 
+ * Note: i can call it multiple times this is what function is all about creating once 
+ * and calling it as much time we want.
+ * 
+ * 
+ * Program for Evan and Odd:
+ * -------------------------
+ * 
+ * function findEvenOdd(num){
+ * (num % 9 ===0) ? console.log('even') : console.log('odd')
+ * }
+ * findEvenOdd(9)
+ * 
+ * num => parameter (passed during function defination or placeholder variable that we mention during function defination)
+ * 9 => argument (passed during function calling)
+ * 
+ * 
+ */
+

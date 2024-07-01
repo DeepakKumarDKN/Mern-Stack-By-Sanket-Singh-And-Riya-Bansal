@@ -101,5 +101,113 @@
 /**
  * Functions:
  * ----------
+ * In sofware development a lot of times we have to resue our logics 
+ * and whenever we reuse our logics we need to folow a principle called DRY.
+ * 
+ * DRY means Dont Repeat Yourself
+ * 
+ * supoose there are a bunch of statements which we have to use again and again in 
+ * our program but instead of writting the same code again and again we can create 
+ * a function which allows us no to repeat it but yes we call that function anytime
+ * we required
+ * 
+ * this is a good way of writting the code
+ * 
+ * Function Statement: 
+ * --------------------
+ * 
+ * function getName(){
+ *  console.log('deepak')
+ * }
+ * 
+ * This way of creating a function called function expression.
+ * 
+ * Function Expression: 
+ * --------------------
+ * Using function as a variable is called function expression. 
+ * let a = function(){
+ *  console.log('hello, deepak')
+ * }
+ * 
+ * the major diffrence between these two functions is hoisting
+ * can i call the function getName() even before creating it the answer is yes
+ * but can i call a function  a() even before execution the answer is no .
+ * 
+ * during memory creation phase the function getName is being assigned some memory 
+ * and that function is assigned to getName. 
+ * 
+ * but in case of function expression this b is treated like any other variable.
+ * it is assigned undefined initrially untill the code hits the line 128 itself.
+ * 
+ * Function Declaration: 
+ * ---------------------
+ * Function statement is also known as function declaration. 
+ * 
+ * Anonymous Function: 
+ * -------------------
+ * A Function without a name is called Anonymous function 
+ * anonymous function are used in a way where function are used as values. 
+ * when i say values that mean we can assign it to a variable.
+ * but in function statement we cannot use anonymous function. 
+ * 
+ * Named Function Expression: 
+ * --------------------------
+ * var b = function xyz(){
+ *      console.log('b called')
+ * }
+ * 
+ * Paremeter & Arguments: 
+ * ----------------------
+ * parameter are used during function defination: 
+ * arguments are calling during function calling. 
+ * 
+ * function getName(name){
+ *  console.log(name)
+ * }
+ * 
+ * getName('deepak')
+ * 
+ * deepak is called arguments. 
+ * name  is called parameter. 
+ * i can also set a default parameter by writting name = "rahul"
+ * let see this with an example:
+ * 
+ * function getname(name = "rahul"){
+ *      console.log(name)
+ * }
+ * getname()
+ * now it will console it rahul. 
+ * 
+ * 
+ * First Class Function/ First Class Citizens:
+ * -------------------------------------------
+ * so why i am saying functions are first class function because i can pass a function 
+ * as an argument to another function.
+ * 
+ * The ability to used function as an values is called first class functions and can be passed an an 
+ * argument to another function and can be returned from the functions
+ * 
+ * if somebody will say functions are first class citizens that means he is referring to forst class functions
+ * 
+ * 
+ * Example: 
+ * ---------
+ * function getData(name){
+ *  name()
+ * }
+ * 
+ * getData(function(){
+ *  console.log('deepak')
+ * })
+ * 
+    const user = function getData(printData){
+        return printData();
+    }
+
+    function data(){
+        console.log('deepak')
+    }
+    user(data)
  * 
  */
+

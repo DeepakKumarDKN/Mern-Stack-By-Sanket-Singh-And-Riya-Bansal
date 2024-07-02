@@ -84,5 +84,53 @@ console.log(add(40, 70));
 * we will get the output based on the arguments not default parameters
 * and if we are passing any default parameters then we will get the output 
 * based on the default parameters. 
+
+
+function add(...numbers){
+    console.log(numbers)
+}
+add(10,20,10)
+...numbers => this is represented as rest parameters. 
+
+* There are a lot of internal inbuilt functions: 
+* for example math related functions. 
+*
+* Math.abs() => es function mein aggar aap ek positive value pass karoge toh woh apko same to same value 
+* send kar dega. par aggar aap ek negative value pass karohe toh woh apko positive karke send karega. 
 * 
+* for example: Math.abs(9) => 9 || Math.abs(-9) => 9 (negative ko positive mein convert karke apko output mila and woh internally javascripr karta hai)
+*
+* Math.floor(9.8) => 9 (aggar aap decimal number pass karoge usse just chota integer value return kar dega. )
+* Math.ceil(8.7) => 9 
+* Math.round(9.1) => 9
+* so math ek object hai jismein bahut sare functions hote hai in the from of key value pair. 
+* Math = {
+*  abs: function()
+*  sqrt : function()
+*  floor: function()
+*  min : function()
+*  max : function()
+
+Note: 
+-----
+is console.log() part of javascript.? 
+--------------------------------------
+As per the official documentation of javascript there is no mention of something like console.log()
+it is not a native feature of javascript
+
+Date: 
+-----
+const date = new Date()
+console.log(date)
+
+
+}
 */
+const d = new Date()
+console.log(d.getDate())
+console.log(d.getDay())
+console.log(d.getMonth())
+console.log(d.getFullYear())
+console.log(d.getHours())
+console.log(d.getMinutes())
+console.log(d.getSeconds())

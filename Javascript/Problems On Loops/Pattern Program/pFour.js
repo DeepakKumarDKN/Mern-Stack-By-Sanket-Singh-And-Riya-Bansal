@@ -18,4 +18,24 @@ function pattern4(n){
     }
 }
 
-pattern4(5)
+//pattern4(5)
+
+// solution by sanket sir 
+
+function patternFour(n){
+    
+    for(let row =1; row<=n; row+=1){
+        let star=" "
+        let spaces = n-row;
+
+        for(let j =1; j<=spaces; j++){
+            star+="= "
+        }
+        let stars = 2*row-1
+        for(let col=1;  col<=stars; col++){
+            star+="* "
+        }
+        console.log(star)
+    }
+}
+patternFour(5)

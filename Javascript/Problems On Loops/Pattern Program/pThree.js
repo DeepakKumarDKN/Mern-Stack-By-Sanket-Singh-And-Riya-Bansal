@@ -21,7 +21,7 @@ function printPattern(n){
         let spaces = n-row;
 
         for(let j =1; j<=spaces; j+=1){
-            star+="  "
+            star+="= "
         }
 
         let stars = row; 

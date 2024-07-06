@@ -46,4 +46,17 @@ function printPattern2(n){
     }
 }
 
-printPattern2(5)
+//printPattern2(5)
+
+function printPattern3(n){
+    for(let row=1; row<=n; row++){
+        let star = ""
+
+        for(let j = 1; j<=n-row+1; j++){
+            star+="* "
+        }
+        console.log(star)
+    }
+}
+
+//printPattern3(5)

@@ -28,7 +28,7 @@ function patternFour(n){
         let star=" "
         let spaces = n-row;
 
-        for(let j =1; j<=spaces; j++){
+        for(let j =1; j<=spaces; j++){  
             star+="= "
         }
         let stars = 2*row-1

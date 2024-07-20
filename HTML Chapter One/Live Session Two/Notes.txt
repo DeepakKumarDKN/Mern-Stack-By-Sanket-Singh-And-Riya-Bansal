@@ -60,8 +60,8 @@ we have to give same value to for and id.
  https://website_name/submit?"country"="ind"
  meine select ke andar name ko specify kiya hai na esliye data es tarah send ho raha hai.
 
- aur aggar apne name = "country" specify nahi kiya select tag ke andar tab oh data jaega hi nahi
- url mein shoe karega hi nahi. just try it out once by removing name="country"
+ aur aggar apne name = "country" specify nahi kiya select tag ke andar tab woh data jaega hi nahi
+ url mein show karega hi nahi. just try it out once by removing name="country"
 
  so aa jo bhi ek name mein mention karoge wohi chiz apki key ki form mein jaega:
  {

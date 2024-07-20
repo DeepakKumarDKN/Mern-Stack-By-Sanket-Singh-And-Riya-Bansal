@@ -5,7 +5,7 @@ it is usually the URL of the server also jahan pe apka form jake submit hota hai
 
 
 
-post: yahan mein server ko kuch bhejna chahhti hoon.
+post: yahan mein server ko kuch bhejna chahhta hoon.
 
 get: means we are trying to get some response from the server.
 

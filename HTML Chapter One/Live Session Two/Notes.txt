@@ -56,7 +56,7 @@ we have to give same value to for and id.
  beech ek aggar relatonship banana hai toh ham log aise code likh sikhte hein
  jahan hamne label for = "country" and id = "country" diya hai.
 
- aur yahan jo data submit hoga woh kich is tarag hoga. 
+ aur yahan jo data submit hoga woh kich is tarah hoga. 
  https://website_name/submit?"country"="ind"
  meine select ke andar name ko specify kiya hai na esliye data es tarah send ho raha hai.
 

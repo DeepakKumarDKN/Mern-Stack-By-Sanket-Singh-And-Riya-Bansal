@@ -84,7 +84,7 @@ HTML Elements:
 . inline elements
 . block level elements
 
-Inline Elements always display on the same line and take as much with as required.
+Inline Elements always display on the same line and take as much width is required.
 example : a-tag, span-tag, image-tag, etc etc. 
 if you want to set height and width on inline-elements then it doesnot make any diffrence.
 margin-top and margin-bottom cannot be applied to inline element only left and right can be applied

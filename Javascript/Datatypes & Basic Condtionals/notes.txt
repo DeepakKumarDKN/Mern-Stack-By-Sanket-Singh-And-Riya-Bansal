@@ -99,7 +99,7 @@ Rules for naming a variable:
 . variable names are case sensitive (for example if you have a variable name money you have to access it using money not Money)
 . we cannot use a keyword for a variable name
 . keywoard are the reserve words which have some difrent and specefic meaning for example 
-    let keyword we cannot use keyword as a variable kyun ki javascript ne let ki kis specefic 
+    let keyword we cannot use keyword as a variable kyun ki javascript ne let ko kisi specefic 
     purpose ke liye rakha hua hai.
-. it better to start a variable name with small letter we can also use camelCase(combination og small and capital letter)
+. it better to start a variable name with small letter we can also use camelCase(combination of small and capital letter)
     let userName = "deepak"

@@ -1,0 +1,48 @@
+Mainly we have four pillars:
+------------------------------
+Scopes and closures 
+Coercion and types.
+Async Programming
+Objects and classes.
+
+Scopes:
+--------
+In javascript we use the scope concept to figure out where a variable or a function is accessible/ visible.
+so now lets understand how excatly the scoping mechanisim in JS works.?
+
+and to get to know abot the scoping mechanism first of all we need to have some idea about 
+compilation and interpetation in programming languages. 
+
+Most of the languages are divided into two languages. 
+1. Compilation language. 
+2. Interpreted language. 
+
+so what about javascript is it a complied or a interpreted language.?
+
+Compiled Languages:
+---------------------
+Example of compiled languages are C, C++ etc, to run to code of a complied language we need 
+another software called compiler. 
+
+Complier takes the whole code and analyses it and at the end it give us an executible binary,
+but if there is any single error then nothing will be added to the executable infact no exeutable will 
+be made and it will throw an error which are present in the code. 
+
+If not a single error is found in that case we get an executable binary file.
+
+Ingtresting fact is all the errors are told at once. 
+if lets say the forst 100 line of code are correct and the 101 line has an issue
+still nothing will be executed.
+
+Hybrid Languages:
+------------------
+There is a kind of third category type of languages which uses both compiltaion and interpretation
+for the                                   final execurion of code. Example Java, JS, Python
+
+Inpreted Languages:
+-------------------
+Pure inperpreted languages exists for example bash. 
+These are those languages which execute our code directly without reading/ analysing the whole code
+as soon as it detects any error the moment we detect any error it stops
+
+esks matlab jabtak error nahi milta hai tab tak execute hoga and jab milega tab stop ho jaega.

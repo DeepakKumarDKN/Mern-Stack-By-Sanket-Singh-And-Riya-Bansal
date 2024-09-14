@@ -10,7 +10,7 @@ Scopes:
 In javascript we use the scope concept to figure out where a variable or a function is accessible/ visible.
 so now lets understand how excatly the scoping mechanisim in JS works.?
 
-and to get to know abot the scoping mechanism first of all we need to have some idea about 
+and to get to know about the scoping mechanism first of all we need to have some idea about 
 compilation and interpetation in programming languages. 
 
 Most of the languages are divided into two languages. 
@@ -30,8 +30,8 @@ be made and it will throw an error which are present in the code.
 
 If not a single error is found in that case we get an executable binary file.
 
-Ingtresting fact is all the errors are told at once. 
-if lets say the forst 100 line of code are correct and the 101 line has an issue
+Intresting fact is all the errors are told at once. 
+if lets say the first 100 line of code are correct and the 101 line has an issue
 still nothing will be executed.
 
 Hybrid Languages:

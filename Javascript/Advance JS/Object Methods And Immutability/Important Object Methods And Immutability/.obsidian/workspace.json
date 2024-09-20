@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3ef6a66ea81b2d8b",
+        "id": "9cdeca849c8f4bfc",
         "type": "tabs",
         "children": [
           {
-            "id": "dcf2b17460039bc6",
+            "id": "49c386796317fac5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object Oriented In JavaScript..md",
+                "file": "Objects In JS.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object Oriented In JavaScript..md",
+                "file": "Objects In JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object Oriented In JavaScript..md",
+                "file": "Objects In JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object Oriented In JavaScript..md"
+                "file": "Objects In JS.md"
               }
             }
           }
@@ -135,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,14 +148,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcf2b17460039bc6",
+  "active": "49c386796317fac5",
   "lastOpenFiles": [
+    "2024-09-20.md",
+    "Objects In JS.md",
+    "Object Oriented In JavaScript..md",
+    "Pasted image 20240913133438.png",
     "Pasted image 20240913133523.png",
     "Pasted image 20240913133446.png",
-    "Pasted image 20240913133438.png",
     "Pasted image 20240913133112.png",
     "Scopes.md",
-    "Object Oriented In JavaScript..md",
     "Block Scope and Function Expressions.md",
     "Scoping Mechanism In JS.md",
     "Important Object Methods And Immutability.md",
@@ -166,7 +168,6 @@
     "Pasted image 20240829203528.png",
     "Pasted image 20240907171039.png",
     "Pasted image 20240907170505.png",
-    "Pasted image 20240907171730.png",
     "Mutability_and_Immutability_in_JS_lyst1721014969672.pdf",
     "Obsidian.lnk"
   ]
